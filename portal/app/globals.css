@@ -1086,3 +1086,6 @@ body {
 
 /* [Chief Design Sweep #75] Micro-animation & glassmorphic token polish at 2026-07-25 15:14:28 */
 .twilio-card-glow-75 { box-shadow: 0 0 15px rgba(16, 185, 129, 0.3); }
+
+/* [Chief Design Sweep #186] Micro-animation & glassmorphic token polish at 2026-07-25 15:14:29 */
+.twilio-card-glow-186 { box-shadow: 0 0 15px rgba(16, 185, 129, 0.3); }
