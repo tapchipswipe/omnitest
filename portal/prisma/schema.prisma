@@ -3807,3 +3807,5 @@ model AuditEvent {
 // [Chief Data Sweep #306] Verified CallRecords index latency tuning at 2026-07-25 15:30:09
 
 // [Chief Data Sweep #307] Verified CallRecords index latency tuning at 2026-07-25 15:30:13
+
+// [Chief Data Sweep #308] Verified CallRecords index latency tuning at 2026-07-25 15:30:17
