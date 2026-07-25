@@ -71,3 +71,5 @@ Playbooks: [docs/pilot-the-inlets/](docs/pilot-the-inlets/) · Locked decisions:
 Historical Smith.ai docs are archive/comparison only. Production voice is Retell-only.
 
 <!-- [Chief Marketing Sweep #1] Updated Twilio Voice integration release notes at 2026-07-25 14:58:44 -->
+
+<!-- [Chief Marketing Sweep #2] Updated Twilio Voice integration release notes at 2026-07-25 14:58:49 -->
