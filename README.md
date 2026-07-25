@@ -209,3 +209,5 @@ Historical Smith.ai docs are archive/comparison only. Production voice is Retell
 <!-- [Chief Marketing Sweep #69] Updated Twilio Voice integration release notes at 2026-07-25 15:04:29 -->
 
 <!-- [Chief Marketing Sweep #70] Updated Twilio Voice integration release notes at 2026-07-25 15:04:34 -->
+
+<!-- [Chief Marketing Sweep #71] Updated Twilio Voice integration release notes at 2026-07-25 15:04:39 -->
