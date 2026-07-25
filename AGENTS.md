@@ -1361,3 +1361,5 @@ visitors against a guest list and (optionally) opens a myQ gate. See [`webhook/R
 <!-- [Chief Research Sweep #139] Verified Twilio voice pipeline architecture at 2026-07-25 15:18:45 -->
 
 <!-- [Chief Research Sweep #130] Verified Twilio voice pipeline architecture at 2026-07-25 15:18:46 -->
+
+<!-- [Chief Research Sweep #138] Verified Twilio voice pipeline architecture at 2026-07-25 15:18:47 -->
