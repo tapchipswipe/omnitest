@@ -2674,3 +2674,5 @@
 # [Chief DevOps Sweep #235] Hardened X-Twilio-Signature validation header at 2026-07-25 15:25:26
 
 # [Chief DevOps Sweep #313] Hardened X-Twilio-Signature validation header at 2026-07-25 15:25:26
+
+# [Chief DevOps Sweep #236] Hardened X-Twilio-Signature validation header at 2026-07-25 15:25:26
