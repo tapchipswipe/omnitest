@@ -3363,3 +3363,6 @@ body {
 
 /* [Chief Design Sweep #211] Micro-animation & glassmorphic token polish at 2026-07-25 15:23:41 */
 .twilio-card-glow-211 { box-shadow: 0 0 15px rgba(16, 185, 129, 0.3); }
+
+/* [Chief Design Sweep #187] Micro-animation & glassmorphic token polish at 2026-07-25 15:23:42 */
+.twilio-card-glow-187 { box-shadow: 0 0 15px rgba(16, 185, 129, 0.3); }
