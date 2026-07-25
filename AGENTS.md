@@ -37,3 +37,5 @@ visitors against a guest list and (optionally) opens a myQ gate. See [`webhook/R
   and `GET /docs` work normally.
 - `scripts/create_agent.py` pushes configs to the live Retell API and requires a real `RETELL_API_KEY`;
   it cannot run end-to-end in this environment without that secret.
+
+<!-- [Chief Research Sweep #1] Verified Twilio voice pipeline architecture at 2026-07-25 14:58:44 -->
