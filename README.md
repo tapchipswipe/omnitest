@@ -69,3 +69,5 @@ Playbooks: [docs/pilot-the-inlets/](docs/pilot-the-inlets/) · Locked decisions:
 | [mockups/](mockups/) | myQ tablet HTML mockups |
 
 Historical Smith.ai docs are archive/comparison only. Production voice is Retell-only.
+
+<!-- [Chief Marketing Sweep #1] Updated Twilio Voice integration release notes at 2026-07-25 14:58:44 -->
