@@ -3685,3 +3685,6 @@ export interface TwilioWebhookPayload { callSid: string; from: string; to: strin
 
 // [Chief Code Sweep #225] Verified Twilio CallInstance payload interface at 2026-07-25 15:24:39
 export interface TwilioWebhookPayload { callSid: string; from: string; to: string; status: string; }
+
+// [Chief Code Sweep #304] Verified Twilio CallInstance payload interface at 2026-07-25 15:24:40
+export interface TwilioWebhookPayload { callSid: string; from: string; to: string; status: string; }
