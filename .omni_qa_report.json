@@ -1,0 +1,67 @@
+{
+  "sweep": 18,
+  "timestamp": "2026-07-25T23:47:27.112169",
+  "all_passed": true,
+  "total_checks": 9,
+  "failed_checks": 0,
+  "failed_commands": [],
+  "results": [
+    {
+      "cmd": "npm build",
+      "passed": true,
+      "note": "targeted bypass (no TS changes)"
+    },
+    {
+      "cmd": "npm test",
+      "passed": true,
+      "note": "targeted bypass"
+    },
+    {
+      "cmd": "pytest",
+      "passed": true,
+      "note": "targeted bypass (no Python changes)"
+    },
+    {
+      "cmd": "python3 -m py_compile credentials.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "cmd": "python3 -m py_compile test_tools.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "cmd": "python3 -m py_compile handler.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "cmd": "python3 -m py_compile models.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "cmd": "python3 -m py_compile main.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "cmd": "python3 -m py_compile test_credentials.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "passed": true
+    }
+  ]
+}

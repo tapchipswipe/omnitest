@@ -1,0 +1,3829 @@
+{
+  "repo_path": "/mnt/indiana/apps/welift_sandbox",
+  "indexed_at": "2026-07-25T23:47:27.106000",
+  "stats": {
+    "total_files": 122,
+    "total_lines": 40443,
+    "total_symbols": 142,
+    "dependency_nodes": 122
+  },
+  "files": {
+    "setup-checklist.md": {
+      "lines": 195,
+      "ext": ".md",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 8052
+    },
+    "comet-retell-install-brief.md": {
+      "lines": 361,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 14138
+    },
+    "README.md": {
+      "lines": 4053,
+      "ext": ".md",
+      "mtime": 1785037635.6783876,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 221630
+    },
+    "prompt.md": {
+      "lines": 88,
+      "ext": ".md",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 4663
+    },
+    "AGENTS.md": {
+      "lines": 4025,
+      "ext": ".md",
+      "mtime": 1785037635.6783876,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 211729
+    },
+    "webhook/fly.toml": {
+      "lines": 25,
+      "ext": ".toml",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 514
+    },
+    "webhook/credentials.py": {
+      "lines": 680,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [
+        {
+          "name": "_now",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 41,
+          "args": []
+        },
+        {
+          "name": "_iso",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 44,
+          "args": [
+            "dt"
+          ]
+        },
+        {
+          "name": "_parse_iso",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 47,
+          "args": [
+            "value"
+          ]
+        },
+        {
+          "name": "_normalize_company",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 58,
+          "args": [
+            "name"
+          ]
+        },
+        {
+          "name": "_hash_code",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 61,
+          "args": [
+            "code"
+          ]
+        },
+        {
+          "name": "_mask_phone",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 64,
+          "args": [
+            "phone"
+          ]
+        },
+        {
+          "name": "_ensure_e164",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 70,
+          "args": [
+            "phone"
+          ]
+        },
+        {
+          "name": "load_vendors",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 81,
+          "args": []
+        },
+        {
+          "name": "list_vendors",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 95,
+          "args": []
+        },
+        {
+          "name": "find_vendor",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 117,
+          "args": [
+            "company_name"
+          ]
+        },
+        {
+          "name": "_validate_vendor_payload",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 142,
+          "args": [
+            "payload"
+          ]
+        },
+        {
+          "name": "upsert_vendor",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 164,
+          "args": [
+            "payload"
+          ]
+        },
+        {
+          "name": "set_vendor_active",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 210,
+          "args": [
+            "company_name",
+            "active"
+          ]
+        },
+        {
+          "name": "_parse_days",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 239,
+          "args": [
+            "days_part"
+          ]
+        },
+        {
+          "name": "_parse_hhmm",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 258,
+          "args": [
+            "value"
+          ]
+        },
+        {
+          "name": "vendor_window_allows",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 262,
+          "args": [
+            "vendor"
+          ]
+        },
+        {
+          "name": "_end_of_local_day",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 313,
+          "args": [
+            "tz_name"
+          ]
+        },
+        {
+          "name": "_window_end_today",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 322,
+          "args": [
+            "vendor",
+            "tz_name"
+          ]
+        },
+        {
+          "name": "mint_credential",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 340,
+          "args": []
+        },
+        {
+          "name": "revoke_credential",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 414,
+          "args": []
+        },
+        {
+          "name": "_active_credential",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 440,
+          "args": [
+            "community",
+            "company_name"
+          ]
+        },
+        {
+          "name": "verify_proof",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 474,
+          "args": []
+        },
+        {
+          "name": "send_sms",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 493,
+          "args": [
+            "to_phone",
+            "body"
+          ]
+        },
+        {
+          "name": "send_code",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 531,
+          "args": []
+        },
+        {
+          "name": "list_deliveries",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 608,
+          "args": [
+            "limit"
+          ]
+        },
+        {
+          "name": "list_active_credentials",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 631,
+          "args": []
+        },
+        {
+          "name": "list_recent_credentials",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 658,
+          "args": [
+            "limit"
+          ]
+        },
+        {
+          "name": "twilio_configured",
+          "kind": "function",
+          "file": "webhook/credentials.py",
+          "line": 679,
+          "args": []
+        }
+      ],
+      "imports": [
+        "shutil",
+        "typing",
+        "models",
+        "datetime",
+        "twilio.rest",
+        "hashlib",
+        "pathlib",
+        "secrets",
+        "__future__",
+        "json",
+        "re",
+        "logging",
+        "os",
+        "zoneinfo"
+      ],
+      "size_bytes": 22805
+    },
+    "webhook/vendors.seed.json": {
+      "lines": 31,
+      "ext": ".json",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 988
+    },
+    "webhook/test_tools.py": {
+      "lines": 276,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [
+        {
+          "name": "main_test",
+          "kind": "function",
+          "file": "webhook/test_tools.py",
+          "line": 30,
+          "args": []
+        }
+      ],
+      "imports": [
+        "pathlib",
+        "sys",
+        "main",
+        "__future__",
+        "json",
+        "fastapi.testclient",
+        "os"
+      ],
+      "size_bytes": 8265
+    },
+    "webhook/handler.py": {
+      "lines": 3982,
+      "ext": ".py",
+      "mtime": 1785037646.1662333,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 194737
+    },
+    "webhook/models.py": {
+      "lines": 270,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [
+        {
+          "name": "Community",
+          "kind": "class",
+          "file": "webhook/models.py",
+          "line": 52
+        },
+        {
+          "name": "VendorCompany",
+          "kind": "class",
+          "file": "webhook/models.py",
+          "line": 59
+        },
+        {
+          "name": "GuestEntry",
+          "kind": "class",
+          "file": "webhook/models.py",
+          "line": 72
+        },
+        {
+          "name": "Credential",
+          "kind": "class",
+          "file": "webhook/models.py",
+          "line": 84
+        },
+        {
+          "name": "Delivery",
+          "kind": "class",
+          "file": "webhook/models.py",
+          "line": 98
+        },
+        {
+          "name": "AuditEvent",
+          "kind": "class",
+          "file": "webhook/models.py",
+          "line": 113
+        },
+        {
+          "name": "get_db",
+          "kind": "function",
+          "file": "webhook/models.py",
+          "line": 121,
+          "args": []
+        },
+        {
+          "name": "init_db_and_seed",
+          "kind": "function",
+          "file": "webhook/models.py",
+          "line": 129,
+          "args": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "datetime",
+        "sqlalchemy",
+        "pathlib",
+        "sqlalchemy.pool",
+        "sqlalchemy.orm",
+        "json",
+        "dotenv",
+        "os"
+      ],
+      "size_bytes": 11216
+    },
+    "webhook/vercel.json": {
+      "lines": 8,
+      "ext": ".json",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 95
+    },
+    "webhook/DEPLOY.md": {
+      "lines": 72,
+      "ext": ".md",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 2294
+    },
+    "webhook/Dockerfile": {
+      "lines": 29,
+      "ext": "",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 615
+    },
+    "webhook/run.sh": {
+      "lines": 33,
+      "ext": ".sh",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 928
+    },
+    "webhook/README.md": {
+      "lines": 50,
+      "ext": ".md",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1754
+    },
+    "webhook/requirements.txt": {
+      "lines": 9,
+      "ext": ".txt",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 167
+    },
+    "webhook/guest-list.example.json": {
+      "lines": 41,
+      "ext": ".json",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1410
+    },
+    "webhook/main.py": {
+      "lines": 1060,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [
+        {
+          "name": "_normalize",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 104,
+          "args": [
+            "text"
+          ]
+        },
+        {
+          "name": "_tokens",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 108,
+          "args": [
+            "text"
+          ]
+        },
+        {
+          "name": "_names_match",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 116,
+          "args": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "_parse_dt",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 130,
+          "args": [
+            "value"
+          ]
+        },
+        {
+          "name": "_entry_active",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 142,
+          "args": [
+            "entry",
+            "now",
+            "tz_name"
+          ]
+        },
+        {
+          "name": "_load_guest_list",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 157,
+          "args": []
+        },
+        {
+          "name": "_save_guest_list",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 188,
+          "args": [
+            "book"
+          ]
+        },
+        {
+          "name": "_append_event",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 234,
+          "args": [
+            "event"
+          ]
+        },
+        {
+          "name": "_send_sms",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 248,
+          "args": [
+            "body"
+          ]
+        },
+        {
+          "name": "_myq_configured",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 281,
+          "args": []
+        },
+        {
+          "name": "_try_myq_unlock",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 285,
+          "args": [
+            "entrance"
+          ]
+        },
+        {
+          "name": "_deny_message",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 352,
+          "args": [
+            "detail"
+          ]
+        },
+        {
+          "name": "_verify_retell",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 359,
+          "args": [
+            "raw_body",
+            "signature"
+          ]
+        },
+        {
+          "name": "_extract_args",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 383,
+          "args": [
+            "payload"
+          ]
+        },
+        {
+          "name": "_read_verified_json",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 389,
+          "args": [
+            "request",
+            "signature"
+          ]
+        },
+        {
+          "name": "root",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 408,
+          "args": []
+        },
+        {
+          "name": "health",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 433,
+          "args": []
+        },
+        {
+          "name": "access_ui",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 456,
+          "args": []
+        },
+        {
+          "name": "gate_ui",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 464,
+          "args": []
+        },
+        {
+          "name": "access_meta",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 472,
+          "args": []
+        },
+        {
+          "name": "access_list_vendors",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 488,
+          "args": []
+        },
+        {
+          "name": "access_upsert_vendor",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 496,
+          "args": [
+            "request"
+          ]
+        },
+        {
+          "name": "access_patch_vendor",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 507,
+          "args": [
+            "company_name",
+            "request"
+          ]
+        },
+        {
+          "name": "access_audit",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 525,
+          "args": []
+        },
+        {
+          "name": "gate_meta",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 547,
+          "args": []
+        },
+        {
+          "name": "access_send_code",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 562,
+          "args": [
+            "request"
+          ]
+        },
+        {
+          "name": "access_revoke",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 586,
+          "args": [
+            "request"
+          ]
+        },
+        {
+          "name": "gate_verify_code",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 607,
+          "args": [
+            "request"
+          ]
+        },
+        {
+          "name": "get_access_guest_list",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 646,
+          "args": []
+        },
+        {
+          "name": "post_access_guest_list",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 655,
+          "args": [
+            "request"
+          ]
+        },
+        {
+          "name": "check_guest_list",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 677,
+          "args": [
+            "request",
+            "x_retell_signature"
+          ]
+        },
+        {
+          "name": "open_gate",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 930,
+          "args": [
+            "request",
+            "x_retell_signature"
+          ]
+        },
+        {
+          "name": "escalate_to_oncall",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 1001,
+          "args": [
+            "request",
+            "x_retell_signature"
+          ]
+        },
+        {
+          "name": "retell_call_webhook",
+          "kind": "function",
+          "file": "webhook/main.py",
+          "line": 1054,
+          "args": [
+            "request",
+            "x_retell_signature"
+          ]
+        }
+      ],
+      "imports": [
+        "datetime",
+        "re",
+        "os",
+        "typing",
+        "fastapi.responses",
+        "twilio.rest",
+        "urllib.request",
+        "fastapi",
+        "__future__",
+        "json",
+        "logging",
+        "models",
+        "credentials",
+        "pathlib",
+        "retell",
+        "dotenv",
+        "zoneinfo",
+        "urllib.error",
+        "fastapi.middleware.cors"
+      ],
+      "size_bytes": 37180
+    },
+    "webhook/test_credentials.py": {
+      "lines": 270,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [
+        {
+          "name": "test_mint_verify_revoke",
+          "kind": "function",
+          "file": "webhook/test_credentials.py",
+          "line": 37,
+          "args": []
+        },
+        {
+          "name": "test_vendor_crud",
+          "kind": "function",
+          "file": "webhook/test_credentials.py",
+          "line": 67,
+          "args": []
+        },
+        {
+          "name": "test_send_code_api",
+          "kind": "function",
+          "file": "webhook/test_credentials.py",
+          "line": 102,
+          "args": []
+        },
+        {
+          "name": "test_window_enforcement",
+          "kind": "function",
+          "file": "webhook/test_credentials.py",
+          "line": 128,
+          "args": []
+        },
+        {
+          "name": "test_vendor_proof_retell",
+          "kind": "function",
+          "file": "webhook/test_credentials.py",
+          "line": 158,
+          "args": []
+        },
+        {
+          "name": "test_access_and_gate_pages",
+          "kind": "function",
+          "file": "webhook/test_credentials.py",
+          "line": 232,
+          "args": []
+        },
+        {
+          "name": "main_test",
+          "kind": "function",
+          "file": "webhook/test_credentials.py",
+          "line": 250,
+          "args": []
+        }
+      ],
+      "imports": [
+        "credentials",
+        "pathlib",
+        "sys",
+        "main",
+        "__future__",
+        "fastapi.testclient",
+        "tempfile",
+        "os"
+      ],
+      "size_bytes": 7783
+    },
+    "webhook/api/index.py": {
+      "lines": 7,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [
+        "main",
+        "sys",
+        "pathlib"
+      ],
+      "size_bytes": 179
+    },
+    "webhook/static/access.html": {
+      "lines": 680,
+      "ext": ".html",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 24058
+    },
+    "webhook/static/gate.html": {
+      "lines": 408,
+      "ext": ".html",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 14463
+    },
+    "portal/package-lock.json": {
+      "lines": 6193,
+      "ext": ".json",
+      "mtime": 1785008073.911423,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 177762
+    },
+    "portal/package.json": {
+      "lines": 31,
+      "ext": ".json",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 818
+    },
+    "portal/tsconfig.json": {
+      "lines": 42,
+      "ext": ".json",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 713
+    },
+    "portal/postcss.config.mjs": {
+      "lines": 7,
+      "ext": ".mjs",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 94
+    },
+    "portal/middleware.ts": {
+      "lines": 18,
+      "ext": ".ts",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [
+        "@clerk/nextjs/server"
+      ],
+      "size_bytes": 568
+    },
+    "portal/next-env.d.ts": {
+      "lines": 6,
+      "ext": ".ts",
+      "mtime": 1785004978.1808703,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 262
+    },
+    "portal/CLAUDE.md": {
+      "lines": 1,
+      "ext": ".md",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 11
+    },
+    "portal/README.md": {
+      "lines": 36,
+      "ext": ".md",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1450
+    },
+    "portal/build.log": {
+      "lines": 4,
+      "ext": ".log",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 94
+    },
+    "portal/eslint.config.mjs": {
+      "lines": 18,
+      "ext": ".mjs",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 471
+    },
+    "portal/next.config.ts": {
+      "lines": 7,
+      "ext": ".ts",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [
+        "next"
+      ],
+      "size_bytes": 133
+    },
+    "portal/AGENTS.md": {
+      "lines": 5,
+      "ext": ".md",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 327
+    },
+    "portal/public/next.svg": {
+      "lines": 1,
+      "ext": ".svg",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1375
+    },
+    "portal/public/file.svg": {
+      "lines": 1,
+      "ext": ".svg",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 391
+    },
+    "portal/public/globe.svg": {
+      "lines": 1,
+      "ext": ".svg",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1035
+    },
+    "portal/public/vercel.svg": {
+      "lines": 1,
+      "ext": ".svg",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 128
+    },
+    "portal/public/window.svg": {
+      "lines": 1,
+      "ext": ".svg",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 385
+    },
+    "portal/app/globals.css": {
+      "lines": 5999,
+      "ext": ".css",
+      "mtime": 1785037625.2545414,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 342538
+    },
+    "portal/app/page.tsx": {
+      "lines": 61,
+      "ext": ".tsx",
+      "mtime": 1785004272.1512356,
+      "symbols": [
+        {
+          "name": "Home",
+          "kind": "function",
+          "file": "portal/app/page.tsx"
+        }
+      ],
+      "imports": [
+        "@clerk/nextjs/server",
+        "next/link",
+        "next/navigation"
+      ],
+      "size_bytes": 2928
+    },
+    "portal/app/layout.tsx": {
+      "lines": 27,
+      "ext": ".tsx",
+      "mtime": 1785004272.1512356,
+      "symbols": [
+        {
+          "name": "RootLayout",
+          "kind": "function",
+          "file": "portal/app/layout.tsx"
+        }
+      ],
+      "imports": [
+        "@clerk/nextjs",
+        "next"
+      ],
+      "size_bytes": 609
+    },
+    "portal/app/actions.ts": {
+      "lines": 145,
+      "ext": ".ts",
+      "mtime": 1785004272.1512356,
+      "symbols": [
+        {
+          "name": "getDispatcherContext",
+          "kind": "function",
+          "file": "portal/app/actions.ts"
+        },
+        {
+          "name": "sendCodeAction",
+          "kind": "function",
+          "file": "portal/app/actions.ts"
+        },
+        {
+          "name": "technicianName",
+          "kind": "function",
+          "file": "portal/app/actions.ts"
+        },
+        {
+          "name": "phone",
+          "kind": "function",
+          "file": "portal/app/actions.ts"
+        },
+        {
+          "name": "communityName",
+          "kind": "function",
+          "file": "portal/app/actions.ts"
+        }
+      ],
+      "imports": [
+        "@clerk/nextjs/server",
+        "@/lib/credentials",
+        "@/lib/db"
+      ],
+      "size_bytes": 4259
+    },
+    "portal/app/sign-in/[[...sign-in]]/page.tsx": {
+      "lines": 27,
+      "ext": ".tsx",
+      "mtime": 1785004272.1512356,
+      "symbols": [
+        {
+          "name": "Page",
+          "kind": "function",
+          "file": "portal/app/sign-in/[[...sign-in]]/page.tsx"
+        }
+      ],
+      "imports": [
+        "@clerk/nextjs"
+      ],
+      "size_bytes": 901
+    },
+    "portal/app/dashboard/dashboard-client.tsx": {
+      "lines": 395,
+      "ext": ".tsx",
+      "mtime": 1785004272.1512356,
+      "symbols": [
+        {
+          "name": "DashboardClient",
+          "kind": "function",
+          "file": "portal/app/dashboard/dashboard-client.tsx"
+        },
+        {
+          "name": "handleSubmit",
+          "kind": "function",
+          "file": "portal/app/dashboard/dashboard-client.tsx"
+        },
+        {
+          "name": "handleReset",
+          "kind": "function",
+          "file": "portal/app/dashboard/dashboard-client.tsx"
+        },
+        {
+          "name": "formatTimestamp",
+          "kind": "function",
+          "file": "portal/app/dashboard/dashboard-client.tsx"
+        }
+      ],
+      "imports": [
+        "../actions",
+        "react"
+      ],
+      "size_bytes": 14976
+    },
+    "portal/app/dashboard/page.tsx": {
+      "lines": 101,
+      "ext": ".tsx",
+      "mtime": 1785004272.1512356,
+      "symbols": [
+        {
+          "name": "DashboardPage",
+          "kind": "function",
+          "file": "portal/app/dashboard/page.tsx"
+        }
+      ],
+      "imports": [
+        "./dashboard-client",
+        "../actions",
+        "@clerk/nextjs",
+        "next/link"
+      ],
+      "size_bytes": 3980
+    },
+    "portal/app/sign-up/[[...sign-up]]/page.tsx": {
+      "lines": 27,
+      "ext": ".tsx",
+      "mtime": 1785004272.1512356,
+      "symbols": [
+        {
+          "name": "Page",
+          "kind": "function",
+          "file": "portal/app/sign-up/[[...sign-up]]/page.tsx"
+        }
+      ],
+      "imports": [
+        "@clerk/nextjs"
+      ],
+      "size_bytes": 890
+    },
+    "portal/lib/twilio.ts": {
+      "lines": 5979,
+      "ext": ".ts",
+      "mtime": 1785037646.1662333,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 396226
+    },
+    "portal/lib/prisma.ts": {
+      "lines": 17,
+      "ext": ".ts",
+      "mtime": 1785004272.1512356,
+      "symbols": [
+        {
+          "name": "prismaClientSingleton",
+          "kind": "function",
+          "file": "portal/lib/prisma.ts"
+        }
+      ],
+      "imports": [
+        "@prisma/client"
+      ],
+      "size_bytes": 388
+    },
+    "portal/lib/credentials.ts": {
+      "lines": 438,
+      "ext": ".ts",
+      "mtime": 1785004272.1512356,
+      "symbols": [
+        {
+          "name": "normalizeCompany",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "hashCode",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "maskPhone",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "ensureE164",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "parseDays",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "getLocalTimeInfo",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "localDateTimeToUTC",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "getEndOfLocalDay",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "getWindowEndToday",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "vendorWindowAllows",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "findVendor",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "mintCredential",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "sendSms",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "sendCode",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "digits",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "raw",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "windowStr",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "windowStr",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "cleanCommunity",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "cleanCompanyName",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "cleanCommunity",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "cleanCompanyName",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        },
+        {
+          "name": "toRaw",
+          "kind": "function",
+          "file": "portal/lib/credentials.ts"
+        }
+      ],
+      "imports": [
+        "twilio",
+        "crypto",
+        "./db"
+      ],
+      "size_bytes": 12472
+    },
+    "portal/lib/db.ts": {
+      "lines": 128,
+      "ext": ".ts",
+      "mtime": 1785004272.1512356,
+      "symbols": [
+        {
+          "name": "getActiveVendors",
+          "kind": "function",
+          "file": "portal/lib/db.ts"
+        },
+        {
+          "name": "getCommunity",
+          "kind": "function",
+          "file": "portal/lib/db.ts"
+        },
+        {
+          "name": "rotateActiveCredentials",
+          "kind": "function",
+          "file": "portal/lib/db.ts"
+        },
+        {
+          "name": "insertCredential",
+          "kind": "function",
+          "file": "portal/lib/db.ts"
+        },
+        {
+          "name": "insertDelivery",
+          "kind": "function",
+          "file": "portal/lib/db.ts"
+        },
+        {
+          "name": "getRecentDeliveries",
+          "kind": "function",
+          "file": "portal/lib/db.ts"
+        }
+      ],
+      "imports": [
+        "./prisma"
+      ],
+      "size_bytes": 3765
+    },
+    "portal/prisma/prepare-db.js": {
+      "lines": 66,
+      "ext": ".js",
+      "mtime": 1785004272.1552355,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 2352
+    },
+    "portal/prisma/schema.prisma": {
+      "lines": 4065,
+      "ext": ".prisma",
+      "mtime": 1785037640.882311,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 187271
+    },
+    "docs/GATE-SECURITY.md": {
+      "lines": 108,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 3752
+    },
+    "docs/PROFIT_OPTIMIZATION.md": {
+      "lines": 363,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 28944
+    },
+    "docs/PHASE0-OPS.md": {
+      "lines": 25,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1102
+    },
+    "docs/VENDOR-CONTACTS.md": {
+      "lines": 163,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 7158
+    },
+    "docs/VENDOR-PORTAL.md": {
+      "lines": 246,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 9230
+    },
+    "docs/VENDOR-PORTAL-ROADMAP.md": {
+      "lines": 373,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 13111
+    },
+    "docs/SALES-DEMO.md": {
+      "lines": 23,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 922
+    },
+    "docs/PILOT-WEEK.md": {
+      "lines": 34,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1068
+    },
+    "docs/MYQ-TABLET-RETELL.md": {
+      "lines": 65,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 2428
+    },
+    "docs/PRODUCT.md": {
+      "lines": 210,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 9582
+    },
+    "docs/DEPLOYMENT.md": {
+      "lines": 163,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 7750
+    },
+    "docs/PRODUCT-ACCEPTANCE.md": {
+      "lines": 54,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1799
+    },
+    "docs/PROJECT-INDEX.md": {
+      "lines": 92,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 4461
+    },
+    "docs/GATE-CODE-RUNBOOK.md": {
+      "lines": 34,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1586
+    },
+    "docs/lucas_financial_understanding/01_TRUE_COST_PER_CALL_BREAKDOWN.md": {
+      "lines": 43,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 2284
+    },
+    "docs/lucas_financial_understanding/05_STEP_2_EDGE_REDIS_UPGRADE_BLUEPRINT.md": {
+      "lines": 88,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 5925
+    },
+    "docs/lucas_financial_understanding/README.md": {
+      "lines": 28,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 2073
+    },
+    "docs/lucas_financial_understanding/03_HOA_PRICING_HYBRID_STRATEGY.md": {
+      "lines": 73,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 4390
+    },
+    "docs/lucas_financial_understanding/02_PAY_PER_CALL_MARGIN_ANALYSIS.md": {
+      "lines": 54,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 2992
+    },
+    "docs/lucas_financial_understanding/04_ANNUAL_OPERATIONAL_EXPENSES_OPEX.md": {
+      "lines": 53,
+      "ext": ".md",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 3944
+    },
+    "docs/pilot-the-inlets/myq-api-path.md": {
+      "lines": 85,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 2918
+    },
+    "docs/pilot-the-inlets/on-call-sms-sla.md": {
+      "lines": 66,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 2175
+    },
+    "docs/pilot-the-inlets/cam-kickoff-email.md": {
+      "lines": 92,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 3079
+    },
+    "docs/pilot-the-inlets/compliance-path.md": {
+      "lines": 121,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 5022
+    },
+    "docs/pilot-the-inlets/README.md": {
+      "lines": 64,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 4480
+    },
+    "docs/pilot-the-inlets/cam-identification.md": {
+      "lines": 92,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 4527
+    },
+    "docs/pilot-the-inlets/SEND-NOW-myq-partner.md": {
+      "lines": 50,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1879
+    },
+    "docs/pilot-the-inlets/entity-insurance-action-kit.md": {
+      "lines": 150,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 5561
+    },
+    "docs/pilot-the-inlets/cam-outreach-touch1.md": {
+      "lines": 127,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 3496
+    },
+    "docs/pilot-the-inlets/SEND-NOW-cam-touch.md": {
+      "lines": 47,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1567
+    },
+    "docs/pilot-the-inlets/decision-log.md": {
+      "lines": 186,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 8113
+    },
+    "docs/pilot-the-inlets/THIS-WEEK.md": {
+      "lines": 61,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 2278
+    },
+    "docs/pilot-the-inlets/dealer-myq-routing.md": {
+      "lines": 152,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 6980
+    },
+    "docs/pilot-the-inlets/pre-cam-playbook.md": {
+      "lines": 305,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 17322
+    },
+    "docs/pilot-the-inlets/AGENT-STATUS.md": {
+      "lines": 24,
+      "ext": ".md",
+      "mtime": 1785004272.0792365,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 829
+    },
+    "01-metro-validation/competitor-pricing.md": {
+      "lines": 115,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 6091
+    },
+    "01-metro-validation/liftmaster-integration.md": {
+      "lines": 117,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 5001
+    },
+    "01-metro-validation/how-to-connect-myq-to-smith.md": {
+      "lines": 137,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 5865
+    },
+    "01-metro-validation/SWFL-941-metro-map.md": {
+      "lines": 117,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 7004
+    },
+    "03-channel-test/smith-ai-setup-checklist.md": {
+      "lines": 227,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 8570
+    },
+    "03-channel-test/outreach-emails.md": {
+      "lines": 86,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 3427
+    },
+    "03-channel-test/findings-synthesis.md": {
+      "lines": 77,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 4070
+    },
+    "03-channel-test/interview-guide.md": {
+      "lines": 69,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 2764
+    },
+    "03-channel-test/target-cam-firms.md": {
+      "lines": 20,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1769
+    },
+    "configs/retell-agent-import.json": {
+      "lines": 691,
+      "ext": ".json",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 25239
+    },
+    "configs/retell-agent.json": {
+      "lines": 59,
+      "ext": ".json",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1509
+    },
+    "configs/retell-agent-flow.base.json": {
+      "lines": 691,
+      "ext": ".json",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 25239
+    },
+    "configs/demo-stack.json": {
+      "lines": 22,
+      "ext": ".json",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 659
+    },
+    "configs/retell-llm.json": {
+      "lines": 166,
+      "ext": ".json",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 8060
+    },
+    "mockups/visitor-gate-kiosk.html": {
+      "lines": 681,
+      "ext": ".html",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 22339
+    },
+    "mockups/myq-tablet-visitor-visuals.html": {
+      "lines": 235,
+      "ext": ".html",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 8834
+    },
+    "mockups/smith-myq-integration.html": {
+      "lines": 468,
+      "ext": ".html",
+      "mtime": 1785004272.1512356,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 17141
+    },
+    "02-pilot-math/pilot-financial-model.md": {
+      "lines": 109,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 3754
+    },
+    "02-pilot-math/one-hoa-full-ai-trial-deep-dive.md": {
+      "lines": 268,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 9654
+    },
+    "02-pilot-math/staffing_model.py": {
+      "lines": 90,
+      "ext": ".py",
+      "mtime": 1785004272.0712366,
+      "symbols": [
+        {
+          "name": "agents_needed",
+          "kind": "function",
+          "file": "02-pilot-math/staffing_model.py",
+          "line": 19,
+          "args": [
+            "sites",
+            "attempts_per_site",
+            "window_minutes",
+            "human_rate",
+            "handle_minutes",
+            "spare_factor"
+          ]
+        },
+        {
+          "name": "coverage_pnl",
+          "kind": "function",
+          "file": "02-pilot-math/staffing_model.py",
+          "line": 34,
+          "args": [
+            "sites",
+            "price",
+            "agents"
+          ]
+        },
+        {
+          "name": "main",
+          "kind": "function",
+          "file": "02-pilot-math/staffing_model.py",
+          "line": 47,
+          "args": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "math",
+        "argparse"
+      ],
+      "size_bytes": 3039
+    },
+    "02-pilot-math/pilot-model.csv": {
+      "lines": 8,
+      "ext": ".csv",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 509
+    },
+    "02-pilot-math/pricing-insurance-subscription-deep-dive.md": {
+      "lines": 236,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 9725
+    },
+    "02-pilot-math/ai-vs-human-cost.md": {
+      "lines": 113,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 5157
+    },
+    "scripts/send_vendor_code.py": {
+      "lines": 47,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [
+        {
+          "name": "main",
+          "kind": "function",
+          "file": "scripts/send_vendor_code.py",
+          "line": 20,
+          "args": []
+        }
+      ],
+      "imports": [
+        "credentials",
+        "pathlib",
+        "sys",
+        "__future__",
+        "json",
+        "dotenv",
+        "argparse",
+        "os"
+      ],
+      "size_bytes": 1332
+    },
+    "scripts/verify_deployment.py": {
+      "lines": 184,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [
+        {
+          "name": "check_fastapi_health",
+          "kind": "function",
+          "file": "scripts/verify_deployment.py",
+          "line": 15,
+          "args": [
+            "url"
+          ]
+        },
+        {
+          "name": "check_fastapi_keypad",
+          "kind": "function",
+          "file": "scripts/verify_deployment.py",
+          "line": 54,
+          "args": [
+            "url"
+          ]
+        },
+        {
+          "name": "check_vercel_portal",
+          "kind": "function",
+          "file": "scripts/verify_deployment.py",
+          "line": 93,
+          "args": [
+            "url"
+          ]
+        },
+        {
+          "name": "main",
+          "kind": "function",
+          "file": "scripts/verify_deployment.py",
+          "line": 124,
+          "args": []
+        }
+      ],
+      "imports": [
+        "sys",
+        "urllib.request",
+        "urllib.error",
+        "json",
+        "argparse",
+        "os"
+      ],
+      "size_bytes": 7257
+    },
+    "scripts/wire_demo_stack.py": {
+      "lines": 337,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [
+        {
+          "name": "_run",
+          "kind": "function",
+          "file": "scripts/wire_demo_stack.py",
+          "line": 30,
+          "args": [
+            "cmd"
+          ]
+        },
+        {
+          "name": "_railway",
+          "kind": "function",
+          "file": "scripts/wire_demo_stack.py",
+          "line": 44,
+          "args": [
+            "args"
+          ]
+        },
+        {
+          "name": "_http_json",
+          "kind": "function",
+          "file": "scripts/wire_demo_stack.py",
+          "line": 54,
+          "args": [
+            "method",
+            "url"
+          ]
+        },
+        {
+          "name": "ensure_creds",
+          "kind": "function",
+          "file": "scripts/wire_demo_stack.py",
+          "line": 74,
+          "args": []
+        },
+        {
+          "name": "deploy_railway",
+          "kind": "function",
+          "file": "scripts/wire_demo_stack.py",
+          "line": 96,
+          "args": [
+            "retell_key"
+          ]
+        },
+        {
+          "name": "wire_retell",
+          "kind": "function",
+          "file": "scripts/wire_demo_stack.py",
+          "line": 192,
+          "args": [
+            "api_key",
+            "webhook_base"
+          ]
+        },
+        {
+          "name": "smoke_tools",
+          "kind": "function",
+          "file": "scripts/wire_demo_stack.py",
+          "line": 295,
+          "args": [
+            "webhook_base"
+          ]
+        },
+        {
+          "name": "main",
+          "kind": "function",
+          "file": "scripts/wire_demo_stack.py",
+          "line": 316,
+          "args": []
+        }
+      ],
+      "imports": [
+        "pathlib",
+        "retell",
+        "sys",
+        "urllib.request",
+        "__future__",
+        "urllib.error",
+        "json",
+        "subprocess",
+        "os",
+        "time"
+      ],
+      "size_bytes": 11689
+    },
+    "scripts/build_retell_import.py": {
+      "lines": 127,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [
+        {
+          "name": "_rewrite_urls",
+          "kind": "function",
+          "file": "scripts/build_retell_import.py",
+          "line": 28,
+          "args": [
+            "obj",
+            "base"
+          ]
+        },
+        {
+          "name": "build_import",
+          "kind": "function",
+          "file": "scripts/build_retell_import.py",
+          "line": 51,
+          "args": []
+        },
+        {
+          "name": "main",
+          "kind": "function",
+          "file": "scripts/build_retell_import.py",
+          "line": 71,
+          "args": []
+        }
+      ],
+      "imports": [
+        "pathlib",
+        "sys",
+        "__future__",
+        "json",
+        "argparse",
+        "os"
+      ],
+      "size_bytes": 4057
+    },
+    "scripts/create_agent.py": {
+      "lines": 129,
+      "ext": ".py",
+      "mtime": 1785004272.1552355,
+      "symbols": [
+        {
+          "name": "main",
+          "kind": "function",
+          "file": "scripts/create_agent.py",
+          "line": 21,
+          "args": []
+        }
+      ],
+      "imports": [
+        "pathlib",
+        "retell",
+        "sys",
+        "__future__",
+        "json",
+        "dotenv",
+        "argparse",
+        "os"
+      ],
+      "size_bytes": 4108
+    },
+    "data/guest-list.example.json": {
+      "lines": 41,
+      "ext": ".json",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1410
+    },
+    "data/vendors.seed.json": {
+      "lines": 31,
+      "ext": ".json",
+      "mtime": 1785004272.0752366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 990
+    },
+    "04-risk-setup/insurance-quote-packet.md": {
+      "lines": 115,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 5029
+    },
+    "04-risk-setup/florida-class-b-checklist.md": {
+      "lines": 43,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 1847
+    },
+    "04-risk-setup/service-agreement-liability-clauses.md": {
+      "lines": 133,
+      "ext": ".md",
+      "mtime": 1785004272.0712366,
+      "symbols": [],
+      "imports": [],
+      "size_bytes": 7087
+    }
+  },
+  "symbols": [
+    {
+      "name": "_now",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 41,
+      "args": []
+    },
+    {
+      "name": "_iso",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 44,
+      "args": [
+        "dt"
+      ]
+    },
+    {
+      "name": "_parse_iso",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 47,
+      "args": [
+        "value"
+      ]
+    },
+    {
+      "name": "_normalize_company",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 58,
+      "args": [
+        "name"
+      ]
+    },
+    {
+      "name": "_hash_code",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 61,
+      "args": [
+        "code"
+      ]
+    },
+    {
+      "name": "_mask_phone",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 64,
+      "args": [
+        "phone"
+      ]
+    },
+    {
+      "name": "_ensure_e164",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 70,
+      "args": [
+        "phone"
+      ]
+    },
+    {
+      "name": "load_vendors",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 81,
+      "args": []
+    },
+    {
+      "name": "list_vendors",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 95,
+      "args": []
+    },
+    {
+      "name": "find_vendor",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 117,
+      "args": [
+        "company_name"
+      ]
+    },
+    {
+      "name": "_validate_vendor_payload",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 142,
+      "args": [
+        "payload"
+      ]
+    },
+    {
+      "name": "upsert_vendor",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 164,
+      "args": [
+        "payload"
+      ]
+    },
+    {
+      "name": "set_vendor_active",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 210,
+      "args": [
+        "company_name",
+        "active"
+      ]
+    },
+    {
+      "name": "_parse_days",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 239,
+      "args": [
+        "days_part"
+      ]
+    },
+    {
+      "name": "_parse_hhmm",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 258,
+      "args": [
+        "value"
+      ]
+    },
+    {
+      "name": "vendor_window_allows",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 262,
+      "args": [
+        "vendor"
+      ]
+    },
+    {
+      "name": "_end_of_local_day",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 313,
+      "args": [
+        "tz_name"
+      ]
+    },
+    {
+      "name": "_window_end_today",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 322,
+      "args": [
+        "vendor",
+        "tz_name"
+      ]
+    },
+    {
+      "name": "mint_credential",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 340,
+      "args": []
+    },
+    {
+      "name": "revoke_credential",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 414,
+      "args": []
+    },
+    {
+      "name": "_active_credential",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 440,
+      "args": [
+        "community",
+        "company_name"
+      ]
+    },
+    {
+      "name": "verify_proof",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 474,
+      "args": []
+    },
+    {
+      "name": "send_sms",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 493,
+      "args": [
+        "to_phone",
+        "body"
+      ]
+    },
+    {
+      "name": "send_code",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 531,
+      "args": []
+    },
+    {
+      "name": "list_deliveries",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 608,
+      "args": [
+        "limit"
+      ]
+    },
+    {
+      "name": "list_active_credentials",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 631,
+      "args": []
+    },
+    {
+      "name": "list_recent_credentials",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 658,
+      "args": [
+        "limit"
+      ]
+    },
+    {
+      "name": "twilio_configured",
+      "kind": "function",
+      "file": "webhook/credentials.py",
+      "line": 679,
+      "args": []
+    },
+    {
+      "name": "main_test",
+      "kind": "function",
+      "file": "webhook/test_tools.py",
+      "line": 30,
+      "args": []
+    },
+    {
+      "name": "Community",
+      "kind": "class",
+      "file": "webhook/models.py",
+      "line": 52
+    },
+    {
+      "name": "VendorCompany",
+      "kind": "class",
+      "file": "webhook/models.py",
+      "line": 59
+    },
+    {
+      "name": "GuestEntry",
+      "kind": "class",
+      "file": "webhook/models.py",
+      "line": 72
+    },
+    {
+      "name": "Credential",
+      "kind": "class",
+      "file": "webhook/models.py",
+      "line": 84
+    },
+    {
+      "name": "Delivery",
+      "kind": "class",
+      "file": "webhook/models.py",
+      "line": 98
+    },
+    {
+      "name": "AuditEvent",
+      "kind": "class",
+      "file": "webhook/models.py",
+      "line": 113
+    },
+    {
+      "name": "get_db",
+      "kind": "function",
+      "file": "webhook/models.py",
+      "line": 121,
+      "args": []
+    },
+    {
+      "name": "init_db_and_seed",
+      "kind": "function",
+      "file": "webhook/models.py",
+      "line": 129,
+      "args": []
+    },
+    {
+      "name": "_normalize",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 104,
+      "args": [
+        "text"
+      ]
+    },
+    {
+      "name": "_tokens",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 108,
+      "args": [
+        "text"
+      ]
+    },
+    {
+      "name": "_names_match",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 116,
+      "args": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "name": "_parse_dt",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 130,
+      "args": [
+        "value"
+      ]
+    },
+    {
+      "name": "_entry_active",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 142,
+      "args": [
+        "entry",
+        "now",
+        "tz_name"
+      ]
+    },
+    {
+      "name": "_load_guest_list",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 157,
+      "args": []
+    },
+    {
+      "name": "_save_guest_list",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 188,
+      "args": [
+        "book"
+      ]
+    },
+    {
+      "name": "_append_event",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 234,
+      "args": [
+        "event"
+      ]
+    },
+    {
+      "name": "_send_sms",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 248,
+      "args": [
+        "body"
+      ]
+    },
+    {
+      "name": "_myq_configured",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 281,
+      "args": []
+    },
+    {
+      "name": "_try_myq_unlock",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 285,
+      "args": [
+        "entrance"
+      ]
+    },
+    {
+      "name": "_deny_message",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 352,
+      "args": [
+        "detail"
+      ]
+    },
+    {
+      "name": "_verify_retell",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 359,
+      "args": [
+        "raw_body",
+        "signature"
+      ]
+    },
+    {
+      "name": "_extract_args",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 383,
+      "args": [
+        "payload"
+      ]
+    },
+    {
+      "name": "_read_verified_json",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 389,
+      "args": [
+        "request",
+        "signature"
+      ]
+    },
+    {
+      "name": "root",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 408,
+      "args": []
+    },
+    {
+      "name": "health",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 433,
+      "args": []
+    },
+    {
+      "name": "access_ui",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 456,
+      "args": []
+    },
+    {
+      "name": "gate_ui",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 464,
+      "args": []
+    },
+    {
+      "name": "access_meta",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 472,
+      "args": []
+    },
+    {
+      "name": "access_list_vendors",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 488,
+      "args": []
+    },
+    {
+      "name": "access_upsert_vendor",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 496,
+      "args": [
+        "request"
+      ]
+    },
+    {
+      "name": "access_patch_vendor",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 507,
+      "args": [
+        "company_name",
+        "request"
+      ]
+    },
+    {
+      "name": "access_audit",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 525,
+      "args": []
+    },
+    {
+      "name": "gate_meta",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 547,
+      "args": []
+    },
+    {
+      "name": "access_send_code",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 562,
+      "args": [
+        "request"
+      ]
+    },
+    {
+      "name": "access_revoke",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 586,
+      "args": [
+        "request"
+      ]
+    },
+    {
+      "name": "gate_verify_code",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 607,
+      "args": [
+        "request"
+      ]
+    },
+    {
+      "name": "get_access_guest_list",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 646,
+      "args": []
+    },
+    {
+      "name": "post_access_guest_list",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 655,
+      "args": [
+        "request"
+      ]
+    },
+    {
+      "name": "check_guest_list",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 677,
+      "args": [
+        "request",
+        "x_retell_signature"
+      ]
+    },
+    {
+      "name": "open_gate",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 930,
+      "args": [
+        "request",
+        "x_retell_signature"
+      ]
+    },
+    {
+      "name": "escalate_to_oncall",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 1001,
+      "args": [
+        "request",
+        "x_retell_signature"
+      ]
+    },
+    {
+      "name": "retell_call_webhook",
+      "kind": "function",
+      "file": "webhook/main.py",
+      "line": 1054,
+      "args": [
+        "request",
+        "x_retell_signature"
+      ]
+    },
+    {
+      "name": "test_mint_verify_revoke",
+      "kind": "function",
+      "file": "webhook/test_credentials.py",
+      "line": 37,
+      "args": []
+    },
+    {
+      "name": "test_vendor_crud",
+      "kind": "function",
+      "file": "webhook/test_credentials.py",
+      "line": 67,
+      "args": []
+    },
+    {
+      "name": "test_send_code_api",
+      "kind": "function",
+      "file": "webhook/test_credentials.py",
+      "line": 102,
+      "args": []
+    },
+    {
+      "name": "test_window_enforcement",
+      "kind": "function",
+      "file": "webhook/test_credentials.py",
+      "line": 128,
+      "args": []
+    },
+    {
+      "name": "test_vendor_proof_retell",
+      "kind": "function",
+      "file": "webhook/test_credentials.py",
+      "line": 158,
+      "args": []
+    },
+    {
+      "name": "test_access_and_gate_pages",
+      "kind": "function",
+      "file": "webhook/test_credentials.py",
+      "line": 232,
+      "args": []
+    },
+    {
+      "name": "main_test",
+      "kind": "function",
+      "file": "webhook/test_credentials.py",
+      "line": 250,
+      "args": []
+    },
+    {
+      "name": "Home",
+      "kind": "function",
+      "file": "portal/app/page.tsx"
+    },
+    {
+      "name": "RootLayout",
+      "kind": "function",
+      "file": "portal/app/layout.tsx"
+    },
+    {
+      "name": "getDispatcherContext",
+      "kind": "function",
+      "file": "portal/app/actions.ts"
+    },
+    {
+      "name": "sendCodeAction",
+      "kind": "function",
+      "file": "portal/app/actions.ts"
+    },
+    {
+      "name": "technicianName",
+      "kind": "function",
+      "file": "portal/app/actions.ts"
+    },
+    {
+      "name": "phone",
+      "kind": "function",
+      "file": "portal/app/actions.ts"
+    },
+    {
+      "name": "communityName",
+      "kind": "function",
+      "file": "portal/app/actions.ts"
+    },
+    {
+      "name": "Page",
+      "kind": "function",
+      "file": "portal/app/sign-in/[[...sign-in]]/page.tsx"
+    },
+    {
+      "name": "DashboardClient",
+      "kind": "function",
+      "file": "portal/app/dashboard/dashboard-client.tsx"
+    },
+    {
+      "name": "handleSubmit",
+      "kind": "function",
+      "file": "portal/app/dashboard/dashboard-client.tsx"
+    },
+    {
+      "name": "handleReset",
+      "kind": "function",
+      "file": "portal/app/dashboard/dashboard-client.tsx"
+    },
+    {
+      "name": "formatTimestamp",
+      "kind": "function",
+      "file": "portal/app/dashboard/dashboard-client.tsx"
+    },
+    {
+      "name": "DashboardPage",
+      "kind": "function",
+      "file": "portal/app/dashboard/page.tsx"
+    },
+    {
+      "name": "Page",
+      "kind": "function",
+      "file": "portal/app/sign-up/[[...sign-up]]/page.tsx"
+    },
+    {
+      "name": "prismaClientSingleton",
+      "kind": "function",
+      "file": "portal/lib/prisma.ts"
+    },
+    {
+      "name": "normalizeCompany",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "hashCode",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "maskPhone",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "ensureE164",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "parseDays",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "getLocalTimeInfo",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "localDateTimeToUTC",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "getEndOfLocalDay",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "getWindowEndToday",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "vendorWindowAllows",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "findVendor",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "mintCredential",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "sendSms",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "sendCode",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "digits",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "raw",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "windowStr",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "windowStr",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "cleanCommunity",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "cleanCompanyName",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "cleanCommunity",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "cleanCompanyName",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "toRaw",
+      "kind": "function",
+      "file": "portal/lib/credentials.ts"
+    },
+    {
+      "name": "getActiveVendors",
+      "kind": "function",
+      "file": "portal/lib/db.ts"
+    },
+    {
+      "name": "getCommunity",
+      "kind": "function",
+      "file": "portal/lib/db.ts"
+    },
+    {
+      "name": "rotateActiveCredentials",
+      "kind": "function",
+      "file": "portal/lib/db.ts"
+    },
+    {
+      "name": "insertCredential",
+      "kind": "function",
+      "file": "portal/lib/db.ts"
+    },
+    {
+      "name": "insertDelivery",
+      "kind": "function",
+      "file": "portal/lib/db.ts"
+    },
+    {
+      "name": "getRecentDeliveries",
+      "kind": "function",
+      "file": "portal/lib/db.ts"
+    },
+    {
+      "name": "agents_needed",
+      "kind": "function",
+      "file": "02-pilot-math/staffing_model.py",
+      "line": 19,
+      "args": [
+        "sites",
+        "attempts_per_site",
+        "window_minutes",
+        "human_rate",
+        "handle_minutes",
+        "spare_factor"
+      ]
+    },
+    {
+      "name": "coverage_pnl",
+      "kind": "function",
+      "file": "02-pilot-math/staffing_model.py",
+      "line": 34,
+      "args": [
+        "sites",
+        "price",
+        "agents"
+      ]
+    },
+    {
+      "name": "main",
+      "kind": "function",
+      "file": "02-pilot-math/staffing_model.py",
+      "line": 47,
+      "args": []
+    },
+    {
+      "name": "main",
+      "kind": "function",
+      "file": "scripts/send_vendor_code.py",
+      "line": 20,
+      "args": []
+    },
+    {
+      "name": "check_fastapi_health",
+      "kind": "function",
+      "file": "scripts/verify_deployment.py",
+      "line": 15,
+      "args": [
+        "url"
+      ]
+    },
+    {
+      "name": "check_fastapi_keypad",
+      "kind": "function",
+      "file": "scripts/verify_deployment.py",
+      "line": 54,
+      "args": [
+        "url"
+      ]
+    },
+    {
+      "name": "check_vercel_portal",
+      "kind": "function",
+      "file": "scripts/verify_deployment.py",
+      "line": 93,
+      "args": [
+        "url"
+      ]
+    },
+    {
+      "name": "main",
+      "kind": "function",
+      "file": "scripts/verify_deployment.py",
+      "line": 124,
+      "args": []
+    },
+    {
+      "name": "_run",
+      "kind": "function",
+      "file": "scripts/wire_demo_stack.py",
+      "line": 30,
+      "args": [
+        "cmd"
+      ]
+    },
+    {
+      "name": "_railway",
+      "kind": "function",
+      "file": "scripts/wire_demo_stack.py",
+      "line": 44,
+      "args": [
+        "args"
+      ]
+    },
+    {
+      "name": "_http_json",
+      "kind": "function",
+      "file": "scripts/wire_demo_stack.py",
+      "line": 54,
+      "args": [
+        "method",
+        "url"
+      ]
+    },
+    {
+      "name": "ensure_creds",
+      "kind": "function",
+      "file": "scripts/wire_demo_stack.py",
+      "line": 74,
+      "args": []
+    },
+    {
+      "name": "deploy_railway",
+      "kind": "function",
+      "file": "scripts/wire_demo_stack.py",
+      "line": 96,
+      "args": [
+        "retell_key"
+      ]
+    },
+    {
+      "name": "wire_retell",
+      "kind": "function",
+      "file": "scripts/wire_demo_stack.py",
+      "line": 192,
+      "args": [
+        "api_key",
+        "webhook_base"
+      ]
+    },
+    {
+      "name": "smoke_tools",
+      "kind": "function",
+      "file": "scripts/wire_demo_stack.py",
+      "line": 295,
+      "args": [
+        "webhook_base"
+      ]
+    },
+    {
+      "name": "main",
+      "kind": "function",
+      "file": "scripts/wire_demo_stack.py",
+      "line": 316,
+      "args": []
+    },
+    {
+      "name": "_rewrite_urls",
+      "kind": "function",
+      "file": "scripts/build_retell_import.py",
+      "line": 28,
+      "args": [
+        "obj",
+        "base"
+      ]
+    },
+    {
+      "name": "build_import",
+      "kind": "function",
+      "file": "scripts/build_retell_import.py",
+      "line": 51,
+      "args": []
+    },
+    {
+      "name": "main",
+      "kind": "function",
+      "file": "scripts/build_retell_import.py",
+      "line": 71,
+      "args": []
+    },
+    {
+      "name": "main",
+      "kind": "function",
+      "file": "scripts/create_agent.py",
+      "line": 21,
+      "args": []
+    }
+  ],
+  "dependency_graph": {
+    "setup-checklist.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "comet-retell-install-brief.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "README.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "prompt.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "AGENTS.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/fly.toml": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/credentials.py": {
+      "depends_on": [
+        "webhook/models.py",
+        "webhook/main.py",
+        "scripts/wire_demo_stack.py",
+        "webhook/test_credentials.py",
+        "portal/lib/credentials.ts",
+        "portal/lib/db.ts",
+        "scripts/create_agent.py",
+        "scripts/build_retell_import.py"
+      ],
+      "imported_by": [
+        "webhook/main.py",
+        "webhook/test_credentials.py",
+        "portal/lib/credentials.ts",
+        "scripts/send_vendor_code.py"
+      ]
+    },
+    "webhook/vendors.seed.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/test_tools.py": {
+      "depends_on": [
+        "webhook/test_credentials.py",
+        "webhook/main.py",
+        "scripts/create_agent.py",
+        "scripts/wire_demo_stack.py"
+      ],
+      "imported_by": []
+    },
+    "webhook/handler.py": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/models.py": {
+      "depends_on": [
+        "webhook/main.py",
+        "scripts/wire_demo_stack.py"
+      ],
+      "imported_by": [
+        "webhook/credentials.py",
+        "webhook/main.py"
+      ]
+    },
+    "webhook/vercel.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/DEPLOY.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/Dockerfile": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/run.sh": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/README.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/requirements.txt": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/guest-list.example.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/main.py": {
+      "depends_on": [
+        "webhook/credentials.py",
+        "webhook/test_credentials.py",
+        "webhook/models.py",
+        "portal/lib/credentials.ts",
+        "portal/lib/db.ts",
+        "scripts/create_agent.py",
+        "scripts/wire_demo_stack.py",
+        "scripts/build_retell_import.py",
+        "scripts/verify_deployment.py"
+      ],
+      "imported_by": [
+        "webhook/credentials.py",
+        "webhook/test_tools.py",
+        "webhook/models.py",
+        "webhook/test_credentials.py",
+        "webhook/api/index.py",
+        "scripts/send_vendor_code.py",
+        "scripts/verify_deployment.py",
+        "scripts/wire_demo_stack.py",
+        "scripts/build_retell_import.py",
+        "scripts/create_agent.py"
+      ]
+    },
+    "webhook/test_credentials.py": {
+      "depends_on": [
+        "webhook/credentials.py",
+        "portal/lib/credentials.ts",
+        "webhook/main.py",
+        "scripts/create_agent.py"
+      ],
+      "imported_by": [
+        "webhook/credentials.py",
+        "webhook/test_tools.py",
+        "webhook/main.py",
+        "webhook/api/index.py",
+        "scripts/send_vendor_code.py",
+        "scripts/wire_demo_stack.py",
+        "scripts/create_agent.py"
+      ]
+    },
+    "webhook/api/index.py": {
+      "depends_on": [
+        "webhook/test_credentials.py",
+        "webhook/main.py",
+        "scripts/create_agent.py"
+      ],
+      "imported_by": []
+    },
+    "webhook/static/access.html": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "webhook/static/gate.html": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/package-lock.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/package.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/tsconfig.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/postcss.config.mjs": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/middleware.ts": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/next-env.d.ts": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/CLAUDE.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/README.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/build.log": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/eslint.config.mjs": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/next.config.ts": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/AGENTS.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/public/next.svg": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/public/file.svg": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/public/globe.svg": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/public/vercel.svg": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/public/window.svg": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/app/globals.css": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/app/page.tsx": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/app/layout.tsx": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/app/actions.ts": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/app/sign-in/[[...sign-in]]/page.tsx": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/app/dashboard/dashboard-client.tsx": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/app/dashboard/page.tsx": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/app/sign-up/[[...sign-up]]/page.tsx": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/lib/twilio.ts": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/lib/prisma.ts": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/lib/credentials.ts": {
+      "depends_on": [
+        "webhook/credentials.py"
+      ],
+      "imported_by": [
+        "webhook/credentials.py",
+        "webhook/main.py",
+        "webhook/test_credentials.py",
+        "scripts/send_vendor_code.py"
+      ]
+    },
+    "portal/lib/db.ts": {
+      "depends_on": [],
+      "imported_by": [
+        "webhook/credentials.py",
+        "webhook/main.py"
+      ]
+    },
+    "portal/prisma/prepare-db.js": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "portal/prisma/schema.prisma": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/GATE-SECURITY.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/PROFIT_OPTIMIZATION.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/PHASE0-OPS.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/VENDOR-CONTACTS.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/VENDOR-PORTAL.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/VENDOR-PORTAL-ROADMAP.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/SALES-DEMO.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/PILOT-WEEK.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/MYQ-TABLET-RETELL.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/PRODUCT.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/DEPLOYMENT.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/PRODUCT-ACCEPTANCE.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/PROJECT-INDEX.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/GATE-CODE-RUNBOOK.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/lucas_financial_understanding/01_TRUE_COST_PER_CALL_BREAKDOWN.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/lucas_financial_understanding/05_STEP_2_EDGE_REDIS_UPGRADE_BLUEPRINT.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/lucas_financial_understanding/README.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/lucas_financial_understanding/03_HOA_PRICING_HYBRID_STRATEGY.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/lucas_financial_understanding/02_PAY_PER_CALL_MARGIN_ANALYSIS.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/lucas_financial_understanding/04_ANNUAL_OPERATIONAL_EXPENSES_OPEX.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/myq-api-path.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/on-call-sms-sla.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/cam-kickoff-email.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/compliance-path.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/README.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/cam-identification.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/SEND-NOW-myq-partner.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/entity-insurance-action-kit.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/cam-outreach-touch1.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/SEND-NOW-cam-touch.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/decision-log.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/THIS-WEEK.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/dealer-myq-routing.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/pre-cam-playbook.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "docs/pilot-the-inlets/AGENT-STATUS.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "01-metro-validation/competitor-pricing.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "01-metro-validation/liftmaster-integration.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "01-metro-validation/how-to-connect-myq-to-smith.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "01-metro-validation/SWFL-941-metro-map.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "03-channel-test/smith-ai-setup-checklist.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "03-channel-test/outreach-emails.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "03-channel-test/findings-synthesis.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "03-channel-test/interview-guide.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "03-channel-test/target-cam-firms.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "configs/retell-agent-import.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "configs/retell-agent.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "configs/retell-agent-flow.base.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "configs/demo-stack.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "configs/retell-llm.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "mockups/visitor-gate-kiosk.html": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "mockups/myq-tablet-visitor-visuals.html": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "mockups/smith-myq-integration.html": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "02-pilot-math/pilot-financial-model.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "02-pilot-math/one-hoa-full-ai-trial-deep-dive.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "02-pilot-math/staffing_model.py": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "02-pilot-math/pilot-model.csv": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "02-pilot-math/pricing-insurance-subscription-deep-dive.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "02-pilot-math/ai-vs-human-cost.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "scripts/send_vendor_code.py": {
+      "depends_on": [
+        "webhook/credentials.py",
+        "webhook/test_credentials.py",
+        "portal/lib/credentials.ts",
+        "webhook/main.py",
+        "scripts/wire_demo_stack.py"
+      ],
+      "imported_by": []
+    },
+    "scripts/verify_deployment.py": {
+      "depends_on": [
+        "webhook/main.py",
+        "scripts/wire_demo_stack.py"
+      ],
+      "imported_by": [
+        "webhook/main.py"
+      ]
+    },
+    "scripts/wire_demo_stack.py": {
+      "depends_on": [
+        "webhook/main.py",
+        "webhook/test_credentials.py",
+        "scripts/build_retell_import.py"
+      ],
+      "imported_by": [
+        "webhook/credentials.py",
+        "webhook/test_tools.py",
+        "webhook/models.py",
+        "webhook/main.py",
+        "scripts/send_vendor_code.py",
+        "scripts/verify_deployment.py",
+        "scripts/build_retell_import.py",
+        "scripts/create_agent.py"
+      ]
+    },
+    "scripts/build_retell_import.py": {
+      "depends_on": [
+        "webhook/main.py",
+        "scripts/wire_demo_stack.py"
+      ],
+      "imported_by": [
+        "webhook/credentials.py",
+        "webhook/main.py",
+        "scripts/wire_demo_stack.py",
+        "scripts/create_agent.py"
+      ]
+    },
+    "scripts/create_agent.py": {
+      "depends_on": [
+        "webhook/main.py",
+        "webhook/test_credentials.py",
+        "scripts/wire_demo_stack.py",
+        "scripts/build_retell_import.py"
+      ],
+      "imported_by": [
+        "webhook/credentials.py",
+        "webhook/test_tools.py",
+        "webhook/main.py",
+        "webhook/test_credentials.py",
+        "webhook/api/index.py"
+      ]
+    },
+    "data/guest-list.example.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "data/vendors.seed.json": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "04-risk-setup/insurance-quote-packet.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "04-risk-setup/florida-class-b-checklist.md": {
+      "depends_on": [],
+      "imported_by": []
+    },
+    "04-risk-setup/service-agreement-liability-clauses.md": {
+      "depends_on": [],
+      "imported_by": []
+    }
+  }
+}
