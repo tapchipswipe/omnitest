@@ -1,6 +1,6 @@
 {
   "repo_path": "/mnt/indiana/apps/welift_sandbox",
-  "indexed_at": "2026-07-25T23:59:36.937632",
+  "indexed_at": "2026-07-25T23:59:42.427983",
   "stats": {
     "total_files": 122,
     "total_lines": 30527,
@@ -351,12 +351,12 @@
       "size_bytes": 8265
     },
     "webhook/handler.py": {
-      "lines": 4152,
+      "lines": 4154,
       "ext": ".py",
-      "mtime": 1785038371.515543,
+      "mtime": 1785038376.9394631,
       "symbols": [],
       "imports": [],
-      "size_bytes": 203007
+      "size_bytes": 203105
     },
     "webhook/models.py": {
       "lines": 270,
@@ -1042,12 +1042,12 @@
       "size_bytes": 385
     },
     "portal/app/globals.css": {
-      "lines": 6233,
+      "lines": 6236,
       "ext": ".css",
-      "mtime": 1785038371.515543,
+      "mtime": 1785038376.9394631,
       "symbols": [],
       "imports": [],
-      "size_bytes": 355834
+      "size_bytes": 356006
     },
     "portal/app/page.tsx": {
       "lines": 61,
@@ -1206,12 +1206,12 @@
       "size_bytes": 890
     },
     "portal/lib/twilio.ts": {
-      "lines": 6234,
+      "lines": 6237,
       "ext": ".ts",
-      "mtime": 1785038371.515543,
+      "mtime": 1785038376.9394631,
       "symbols": [],
       "imports": [],
-      "size_bytes": 413081
+      "size_bytes": 413280
     },
     "portal/lib/prisma.ts": {
       "lines": 17,
@@ -1407,12 +1407,12 @@
       "size_bytes": 2352
     },
     "portal/prisma/schema.prisma": {
-      "lines": 4235,
+      "lines": 4237,
       "ext": ".prisma",
-      "mtime": 1785038371.515543,
+      "mtime": 1785038376.9394631,
       "symbols": [],
       "imports": [],
-      "size_bytes": 195116
+      "size_bytes": 195209
     },
     "docs/GATE-SECURITY.md": {
       "lines": 108,
