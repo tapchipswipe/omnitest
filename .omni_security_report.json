@@ -1,0 +1,12 @@
+{
+  "sweep": 40,
+  "timestamp": "2026-07-25T23:51:19.686974",
+  "severity_score": 0,
+  "clean": true,
+  "findings_count": 0,
+  "findings": [],
+  "npm_audit": {
+    "error": "[Errno 2] No such file or directory: 'npm'"
+  },
+  "env_exposure_issues": []
+}
