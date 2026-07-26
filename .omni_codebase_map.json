@@ -1,6 +1,6 @@
 {
   "repo_path": "/mnt/indiana/apps/welift_sandbox",
-  "indexed_at": "2026-07-25T23:57:08.556518",
+  "indexed_at": "2026-07-25T23:57:13.877294",
   "stats": {
     "total_files": 122,
     "total_lines": 26354,
@@ -41,12 +41,12 @@
       "size_bytes": 4663
     },
     "AGENTS.md": {
-      "lines": 4141,
+      "lines": 4143,
       "ext": ".md",
-      "mtime": 1785038222.2937422,
+      "mtime": 1785038228.5576499,
       "symbols": [],
       "imports": [],
-      "size_bytes": 217761
+      "size_bytes": 217865
     },
     "webhook/fly.toml": {
       "lines": 25,
@@ -351,12 +351,12 @@
       "size_bytes": 8265
     },
     "webhook/handler.py": {
-      "lines": 4098,
+      "lines": 4100,
       "ext": ".py",
-      "mtime": 1785038222.2937422,
+      "mtime": 1785038228.5576499,
       "symbols": [],
       "imports": [],
-      "size_bytes": 200363
+      "size_bytes": 200460
     },
     "webhook/models.py": {
       "lines": 270,
@@ -1042,12 +1042,12 @@
       "size_bytes": 385
     },
     "portal/app/globals.css": {
-      "lines": 6173,
+      "lines": 6176,
       "ext": ".css",
-      "mtime": 1785038222.2937422,
+      "mtime": 1785038228.5576499,
       "symbols": [],
       "imports": [],
-      "size_bytes": 352398
+      "size_bytes": 352568
     },
     "portal/app/page.tsx": {
       "lines": 61,
@@ -1206,12 +1206,12 @@
       "size_bytes": 890
     },
     "portal/lib/twilio.ts": {
-      "lines": 6153,
+      "lines": 6156,
       "ext": ".ts",
-      "mtime": 1785038222.2937422,
+      "mtime": 1785038228.5576499,
       "symbols": [],
       "imports": [],
-      "size_bytes": 407710
+      "size_bytes": 407908
     },
     "portal/lib/prisma.ts": {
       "lines": 17,
@@ -1407,12 +1407,12 @@
       "size_bytes": 2352
     },
     "portal/prisma/schema.prisma": {
-      "lines": 4181,
+      "lines": 4183,
       "ext": ".prisma",
-      "mtime": 1785038222.2937422,
+      "mtime": 1785038228.5576499,
       "symbols": [],
       "imports": [],
-      "size_bytes": 192607
+      "size_bytes": 192699
     },
     "docs/GATE-SECURITY.md": {
       "lines": 108,
