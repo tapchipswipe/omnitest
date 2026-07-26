@@ -1,6 +1,6 @@
 {
   "repo_path": "/mnt/indiana/apps/welift_sandbox",
-  "indexed_at": "2026-07-26T01:08:30.667185",
+  "indexed_at": "2026-07-26T01:08:35.996647",
   "stats": {
     "total_files": 122,
     "total_lines": 43529,
@@ -351,12 +351,12 @@
       "size_bytes": 8265
     },
     "webhook/handler.py": {
-      "lines": 5148,
+      "lines": 5150,
       "ext": ".py",
-      "mtime": 1785042505.3306162,
+      "mtime": 1785042510.6705377,
       "symbols": [],
       "imports": [],
-      "size_bytes": 251811
+      "size_bytes": 251909
     },
     "webhook/models.py": {
       "lines": 270,
@@ -1206,12 +1206,12 @@
       "size_bytes": 890
     },
     "portal/lib/twilio.ts": {
-      "lines": 7728,
+      "lines": 7731,
       "ext": ".ts",
-      "mtime": 1785042505.3306162,
+      "mtime": 1785042510.6705377,
       "symbols": [],
       "imports": [],
-      "size_bytes": 512183
+      "size_bytes": 512382
     },
     "portal/lib/prisma.ts": {
       "lines": 17,
