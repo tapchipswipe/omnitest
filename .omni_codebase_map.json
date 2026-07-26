@@ -1,9 +1,9 @@
 {
   "repo_path": "/mnt/indiana/apps/welift_sandbox",
-  "indexed_at": "2026-07-26T00:07:42.535091",
+  "indexed_at": "2026-07-26T00:07:53.782588",
   "stats": {
     "total_files": 122,
-    "total_lines": 41048,
+    "total_lines": 51609,
     "total_symbols": 142,
     "dependency_nodes": 122
   },
